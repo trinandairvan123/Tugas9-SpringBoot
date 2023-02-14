@@ -1,0 +1,7 @@
+Perbedaan dari ketiga endpoint tersebut adalah:
+
+1. GET /v1/messages: Endpoint ini digunakan untuk mengambil data dari server, dalam hal ini pesan "Hello World". Method ini aman dan idempoten, artinya tidak akan memodifikasi data di server.
+
+2. POST /v1/messages: Endpoint ini digunakan untuk mengirimkan data ke server, dalam hal ini pesan "Hello World". Method ini tidak aman, artinya data dapat dimodifikasi di server, dan tidak idempoten, artinya aksi yang sama dapat menghasilkan hasil yang berbeda.
+
+3. DELETE /v1/messages: Endpoint ini digunakan untuk menghapus data dari server, dalam hal ini pesan "Hello World". Method ini tidak aman dan tidak idempoten, artinya aksi yang sama dapat menghasilkan hasil yang berbeda.
